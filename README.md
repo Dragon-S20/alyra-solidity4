@@ -12,9 +12,7 @@ pragma solidity >=0.6.0;
     *   @author Dragon-S20
     *   @notice This contract was written to return the number one
     *   @dev All function calls are currently implemented without side effects
-    */
-
-contract TheOne {
+    contract TheOne {
 
     constructor() public  {
     }
@@ -22,11 +20,9 @@ contract TheOne {
     * @param a is this unique number to return
     * @return the result 1
     */
-
-function one(uint256 a) public pure returns (uint256) {
-return a = 1;
-}
-}
+    function one(uint256 a) public pure returns (uint256) {
+    return a = 1;}
+    }
 
 ## HelloWorld.sol:
 
